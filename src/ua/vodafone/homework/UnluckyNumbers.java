@@ -1,17 +1,17 @@
 package ua.vodafone.homework;
 
-
 public class UnluckyNumbers {
-/*    public static void main(String[] args) {
+    public static void main(String[] args) {
 
-        int[] shuttleName = new int[100];
-
-        int count = 0;
-        for(int index = 0; index < shuttleName.length; index++ ) {
-            if (!(shuttleName[index].containts (4|7)) {
-                System.out.println(index);
+        for(int index = 0; index < 101; index++ ) {
+            String shuttleName = Integer.toString(index);
+            if (shuttleName.contains("4")) {
+                continue;
+            } else if (shuttleName.contains("9")) {
+                continue;
+            }else{
+                System.out.println("shuttleName" + shuttleName);
             }
+        }
     }
-*/
 }
-
