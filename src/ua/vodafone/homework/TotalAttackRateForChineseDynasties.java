@@ -12,7 +12,9 @@ public class TotalAttackRateForChineseDynasties {
         int warriorAttack = 13;
         int archerAttack = 24;
         int riderAttack = 46;
+
         int numberOfUnits = 860 ;
+
         int totalAttackDynasty = numberOfUnits * (warriorAttack + archerAttack + riderAttack);
         System.out.println("Total Attack Dynasty Li = " + totalAttackDynasty);
 
